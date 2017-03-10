@@ -18,3 +18,8 @@ After it you can call plugin
 	direction : 'down', // direction of wolking through collection ('up'|'down')
 	delay: 0 // delay before switch to next element
 ```
+## Events
+```
+chane_element_animation_finished - fired after element animation finished
+chane_animation_finished - fired after all elements animations in collection are done
+```
