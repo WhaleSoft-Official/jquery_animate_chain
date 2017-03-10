@@ -7,7 +7,7 @@
 	},
 	$animation_collection_id = 0;
 	
-    $.fn.animateChane = function(options){
+    $.fn.animateChain = function(options){
         var settings = $.extend({}, defaults, options),
             $collection = this,
             $element = this;
@@ -22,15 +22,15 @@
         
         var current_element_index = $collection.index($element);
         $element.animate(settings.animate, settings.animationTime, function(){
-            $element.trigger('chane_element_animation_finished')
+            $element.trigger('chain_element_animation_finished')
             var next_element = $($collection[current_element_index+1]);
             if(settings.direction == 'up') next_element = $($collection[current_element_index-1]);
             if(next_element.length > 0){
                 setTimeout(function(){
-                    next_element.animateChane(options);
+                    next_element.animateChain(options);
                 }, settings.delay)
             }
-            else $element.trigger('chane_animation_finished');
+            else $element.trigger('chain_animation_finished');
         })
         
         return this;
