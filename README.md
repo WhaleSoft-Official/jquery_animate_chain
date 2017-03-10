@@ -1,15 +1,15 @@
-# jQuery Animate Chane
+# jQuery Animate Chain
 Simple jQuery plugin to do animation with collection of elements one by one
 
 ## Usage
-Just include jQuery lib and animation_chane.js file
+Just include jQuery lib and animation_chain.js file
 ```html
 	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-	<script src="js/animation_chane.js"></script>
+	<script src="js/animation_chain.js"></script>
 ```
 After it you can call plugin
 ```javascript
-	$('.selector').animateChane()
+	$('.selector').animateChain()
 ```
 ## Options
 ```javascript
@@ -20,6 +20,6 @@ After it you can call plugin
 ```
 ## Events
 ```
-chane_element_animation_finished - fired after element animation finished
-chane_animation_finished - fired after all elements animations in collection are done
+chain_element_animation_finished - fired after element animation finished
+chain_animation_finished - fired after all elements animations in collection are done
 ```
