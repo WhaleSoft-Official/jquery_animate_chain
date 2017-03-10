@@ -2,7 +2,7 @@
 Simple jQuery plugin to do animation with collection of elements one by one
 
 ## Usage
-Just include jQuery lib and animte_chane.js file
+Just include jQuery lib and animation_chane.js file
 ```html
 	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 	<script src="js/animation_chane.js"></script>
